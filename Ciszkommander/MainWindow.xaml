@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ciszkommander"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Ciszkommander" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" x:Name="SpCommandBar" Orientation="Horizontal">
+            
+        </StackPanel>
+        <Grid x:Name="GrPanels">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <StackPanel x:Name="SpStatusLine"/>
     </Grid>
 </Window>
