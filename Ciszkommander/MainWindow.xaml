@@ -21,6 +21,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
         </Grid>
-        <StackPanel x:Name="SpStatusLine"/>
+        <StackPanel x:Name="SpStatusLine">
+        </StackPanel>
     </Grid>
 </Window>
